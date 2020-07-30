@@ -55,8 +55,6 @@ body{
 }
 
 
-
-
 /*============================================================== MENU ==========================================================*/
 
 
@@ -94,7 +92,7 @@ body{
     background-color: transparent;
 
 }
-.navbar-default .small {
+.navbar-default.small {
     background-color: #070e19;
     box-shadow: 0px 0px 12px 0px #d5d5d5;
 }
@@ -109,7 +107,7 @@ body{
 .navbar-nav {
     float: right;
     margin: 17px 23px;
-    margin-right: 0;
+    margin-right: 0px;
     opacity: 0;
     transition: .1s;
     -webkit-transition: .1s;
@@ -123,7 +121,7 @@ body{
 }
 .navbar-nav li {
     float: left;
-    margin: 0 5px;
+    margin: 0px 5px;
     display: inherit;
 }
 .navbar-default .navbar-nav > li > a {
@@ -138,7 +136,7 @@ body{
     padding: 10px 5px;
 }
 .navbar-default.small .navbar-nav > li > a {
-    color: #ffffff;
+    color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -200,6 +198,16 @@ body{
     border: 1px solid transparent;
     border-radius: 4px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
